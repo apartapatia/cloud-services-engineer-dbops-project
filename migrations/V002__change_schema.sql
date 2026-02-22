@@ -36,4 +36,4 @@ ALTER TABLE public.order_product
     VALIDATE CONSTRAINT fk_order_product_order_id;
 
 ALTER TABLE public.order_product
-    VALIDATE CONSTRAINT fk_order_product_product
+    VALIDATE CONSTRAINT fk_order_product_product_id;
